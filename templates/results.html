@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonuçlar</title>
+</head>
+<body>
+    <h1>Sonuçlar</h1>
+    <p>Bu sınavdan aldığınız puan: {{ score }}</p>
+    <p>Şu ana kadar aldığınız en yüksek puan: {{ high_score }}</p>
+    <a href="{{ url_for('index') }}">Ana Sayfaya Dön</a>
+    <footer>
+        <p>Geliştirici: <strong>Nursena Taşköprü</strong></p>
+    </footer>
+</body>
+</html>
